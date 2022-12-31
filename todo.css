@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 1rem 0 3rem;
+
+}
+.tittle{
+    color: aqua;
+    font-weight: 600;
+    font-size: 120px;
+
+}
+
+.inputdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    height: 40px;
+    margin: 0.4rem;
+    border-radius: 10px;
+    width: 321px;
+    transition: .5s;
+    font-size: 1.15rem;
+}
